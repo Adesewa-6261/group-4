@@ -1,0 +1,28 @@
+body{
+    display: flex;
+}
+.col-sm-5{
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    margin-top: 50px;
+    font-weight: lighter;
+}
+.Shop{
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: orange;
+   }
+   .Shop:hover{
+    background-color: black;
+    color: orange;
+   }

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    color: orange;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+}
+
+.news_text{
+    display: inline;
+    color: black;
+}
+
+#underline{
+    text-decoration: underline;
+    display: inline;
+    color: black;
+    text-decoration-color: orangered;
+    text-underline-offset: 5px;
+}
+
+#lorem_text{
+    color: black;
+    font-size: small;
+    padding: 15px;
+    line-height: 1.6;
+}
+
+#h2{
+    margin-top: 15vh;
+    font-weight: 1000;
+    font-size: 2em;
+}
+
+#more_news_button{
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    border: none;
+    margin-top: 80px;
+}
+
+#news1{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-right: 30px;
+    color: black;
+}
+
+#news1:hover{
+    box-shadow: 0px 4px 6px white;
+}
+
+#news2{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-right: 30px;
+    color: black
+}
+
+#news2:hover{
+    box-shadow: 0px 4px 6px white;
+}
+
+#news3{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    color: black
+}
+
+#news3:hover{
+    box-shadow: 0px 4px 6px white;
+}
+
+.h6{
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+
+.user_date{
+    font-size: 10px;
+}
+
+.p_news{
+    font-size: 11px
+}
+
+.read_more_news{
+    margin-top: 40px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.news_images{
+    width: vw;
+    height: 20vh;
+    border-radius: 5%;
+}
+
+body{
+    display: flex;
+}
+
+.col-sm-5{
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+.Shop{
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color: orange;
+}
+
+.Shop:hover{
+    background-color: black;
+    color: orange;
+}
+
+#december_sales_text{
+    padding-top: 10vh;
+    padding-left: 20vw;
+    background-image: url(".././images/strawberries_real.jpg");
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+}
+
+.calender{
+    color: black;
+}
+
+.user_profiles{
+    color: black;
+}

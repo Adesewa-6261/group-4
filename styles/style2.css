@@ -85,4 +85,8 @@ h6{
     height: 20vh;
     border-radius: 5%;
 }
+#more_news_button:hover{
+    background-color: black;
+    color: orange;
+   }
 

@@ -47,6 +47,7 @@ body{
     background-color: orange;
     border: none;
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 #news1{
@@ -151,4 +152,22 @@ h2{
 
 .user_profiles{
     color: black;
+}
+
+.slider-container{
+    padding-top: 100px;
+    display: flex;
+    max-width: 100%;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+.slide{
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+#bluline_sponsor{
+    padding-top: 100px;
+    margin-left: 100px;
 }
